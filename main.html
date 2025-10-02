@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chill - Beranda</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body class="bg-[#181A1C] text-white font-lato">
+    <header class="fixed top-0 left-0 right-0 z-50 bg-[#181A1C] bg-opacity-70 backdrop-blur-sm p-4 px-8 flex justify-between items-center">
+        <div class="flex items-center space-x-8">
+        <div class="flex items-center space-x-2">
+          <a href="main.html">
+            <img src="assets/Logo.png" alt="Chill Logo" class="h-8" />
+          </a>
+        </div>
+        <nav class="hidden md:flex space-x-4 text-sm font-medium opacity-80">
+          <a href="#" class="hover:text-white">Series</a>
+          <a href="#" class="hover:text-white">Film</a>
+          <a href="#" class="hover:text-white">Daftar Saya</a>
+        </nav>
+      </div>
+      <div class="flex items-center space-x-4">
+        <div class="avatar-dropdown">
+          <div class="avatar-btn">
+            <img src="assets/Avatar.png" alt="Avatar" class="avatar-img" />
+          </div>
+
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">
+              <img
+                src="assets/account.png"
+                alt="Profile Icon"
+                class="dropdown-icon"
+              />
+              <span>Profil Saya</span>
+            </a>
+
+            <a href="#" class="dropdown-item">
+              <img
+                src="assets/Vector1.png"
+                alt="Premium Icon"
+                class="dropdown-icon"
+              />
+              <span>Ubah Premium</span>
+            </a>
+
+            <div class="dropdown-divider"></div>
+
+            <a href="#" class="dropdown-item">
+              <img
+                src="assets/Vector.png"
+                alt="Logout Icon"
+                class="dropdown-icon"
+              />
+              <span>Keluar</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="pt-16">
+      <section class="relative min-h-screen hero-bg flex items-end">
+        <div class="absolute inset-0 gradient-overlay"></div>
+        <button class="absolute bottom-8 right-8 z-20 w-12 h-12 rounded-full flex items-center justify-center border border-white/30 bg-[#2F3334]/80 backdrop-blur-sm transition transform hover:bg-[#5A5A5A]/90 hover:scale-105">
+          <img src="assets/Frame 65.png" alt="Mute Speaker" class="w-12 h-12 invert" />
+        </button>
+        <div class="relative z-10 p-8">
+          <h1 class="text-5xl font-extrabold mb-4">Avatar</h1>
+          <p class="text-sm w-2/3 opacity-80 mb-6">
+            A paraplegic Marine dispatched to the moon Pandora on a unique
+            mission becomes torn between following his orders and protecting the
+            world he feels is his home.
+          </p>
+          <div class="flex space-x-4 items-center">
+            <button class="bg-[#0F1E93] text-white font-semibold py-3 px-6 rounded-full hover:bg-[#192DB7]">
+              Mulai
+            </button>
+            <button class="bg-[#2F3334] text-white font-semibold py-3 px-6 rounded-full hover:bg-white hover:text-black">
+              Selengkapnya
+            </button>
+            <span
+              class="text-xs border border-white opacity-80 rounded-full px-2 py-1">
+              PG-13
+            </span>
+          </div>
+        </div>
+      </section>
+
+      <section class="p-8 space-y-8">
+        <h3 class="text-2xl font-bold">Melanjutkan Tonton Film</h3>
+        <div class="carousel-container">
+          <button class="carousel-btn left">
+            <img
+              src="assets/Frame 72.png"
+              alt="Panah Kiri"
+              class="w-full h-full object-contain"
+            />
+          </button>
+          <div id="continue-watching" class="carousel-wrapper">
+            <div class="poster-item-with-title">
+              <img
+                src="assets/movie-posters/continue-watch/image 208.png"
+                alt="Rio"
+              />
+              <div class="poster-title-overlay">
+                <h4 class="text-base font-semibold">Rio</h4>
+                <p class="text-xs opacity-70">2011</p>
+              </div>
+            </div>
+            <div class="poster-item-with-title">
+              <img
+                src="assets/movie-posters/continue-watch/image 216.png"
+                alt="Shazam"
+              />
+              <div class="poster-title-overlay">
+                <h4 class="text-base font-semibold">Shazam</h4>
+                <p class="text-xs opacity-70">2013</p>
+              </div>
+            </div>
+            <div class="poster-item-with-title">
+              <img
+                src="assets/movie-posters/continue-watch/image 218.png"
+                alt="Fast X"
+              />
+              <div class="poster-title-overlay">
+                <h4 class="text-base font-semibold">Fast X</h4>
+                <p class="text-xs opacity-70">2023</p>
+              </div>
+            </div>
+            <div class="poster-item-with-title">
+              <div class="absolute top-2 left-2 bg-[#0F1E93] text-white text-xs font-semibold px-2 py-1 rounded-md z-10">
+                Episode Baru
+              </div>
+              <img
+                src="assets/movie-posters/continue-watch/image 219.png"
+                alt="Blue Lock" class="rounded-lg"
+              />
+              <div class="poster-title-overlay">
+                <h4 class="text-base font-semibold">Blue Lock</h4>
+                <p class="text-xs opacity-70">2022</p>
+              </div>
+            </div>
+            <div class="poster-item-with-title">
+              <img
+                src="assets/movie-posters/continue-watch/image 224.png"
+                alt="Blue Lock"
+              />
+              <div class="poster-title-overlay">
+                <h4 class="text-base font-semibold">A Man Called Otto</h4>
+                <p class="text-xs opacity-70">2022</p>
+              </div>
+            </div>
+            <div class="poster-item-with-title">
+              <img
+                src="assets/movie-posters/continue-watch/image 226.png"
+                alt="Big Hero 6"
+              />
+              <div class="poster-title-overlay">
+                <h4 class="text-base font-semibold">Big Hero 6</h4>
+                <p class="text-xs opacity-70">2014</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-btn right">
+            <img
+              src="assets/Frame 71.png"
+              alt="Panah Kanan"
+              class="w-full h-full object-contain"
+            />
+          </button>
+        </div>
+
+        <h3 class="text-2xl font-bold">Top Rating Film dan Series Hari ini</h3>
+        <div class="carousel-container">
+          <button class="carousel-btn left">
+            <img
+              src="assets/Frame 72.png"
+              alt="Panah Kiri"
+              class="w-full h-full object-contain"
+            />
+          </button>
+          <div class="flex overflow-hidden gap-4 py-2 scroll-smooth">
+            <div class="poster-item">
+              <img
+                class="w-full rounded-lg"
+                src="assets/movie-posters/top-rated/image 212.png"
+                alt="Top Rating 1"
+              />
+            </div>
+            <div class="poster-item">
+              <img
+                class="w-full rounded-lg"
+                src="assets/movie-posters/top-rated/image 213.png"
+                alt="Top Rating 2"
+              />
+            </div>
+            <div class="poster-item relative">
+              <div class="absolute top-2 left-2 bg-[#0F1E93] text-white text-xs font-semibold px-2 py-1 rounded-md z-10">
+                Episode Baru
+              </div>
+              <img
+                class="w-full rounded-lg"
+                src="assets/movie-posters/top-rated/image 223.png"
+                alt="Top Rating 3"
+              />
+            </div>
+            <div class="poster-item">
+              <img
+                class="w-full rounded-lg"
+                src="assets/movie-posters/top-rated/image 224.png"
+                alt="Top Rating 4"
+              />
+            </div>
+            <div class="poster-item">
+              <img
+                class="w-full rounded-lg"
+                src="assets/movie-posters/top-rated/image 234.png"
+                alt="Top Rating 5"
+              />
+            </div>
+            <div class="poster-item">
+              <img
+                class="w-full rounded-lg"
+                src="assets/movie-posters/top-rated/image 235.png"
+                alt="Top Rating 6"
+              />
+            </div>
+          </div>
+          <button class="carousel-btn right">
+            <img
+              src="assets/Frame 71.png"
+              alt="Panah Kanan"
+              class="w-full h-full object-contain"
+            />
+          </button>
+        </div>
+
+        <h3 class="text-2xl font-bold">Film Trending</h3>
+        <div class="carousel-container">
+          <button class="carousel-btn left">
+            <img
+              src="assets/Frame 72.png"
+              alt="Panah Kiri"
+              class="w-full h-full object-contain"
+            />
+          </button>
+          <div class="flex overflow-hidden gap-4 py-2 scroll-smooth">
+            <div class="poster-item">
+              <img
+                class="w-full rounded-lg"
+                src="assets/movie-posters/trending/image 210.png"
+                alt="Trending 1"
+              />
+            </div>
+            <div class="poster-item">
+              <img
+                class="w-full rounded-lg"
+                src="assets/movie-posters/trending/image 211.png"
+                alt="Trending 2"
+              />
+            </div>
+            <div class="poster-item">
+              <img
+                class="w-full rounded-lg"
+                src="assets/movie-posters/trending/image 221.png"
+                alt="Trending 3"
+              />
+            </div>
+            <div class="poster-item">
+              <img
+                class="w-full rounded-lg"
+                src="assets/movie-posters/trending/image 226.png"
+                alt="Trending 4"
+              />
+            </div>
+            <div class="poster-item">
+              <img
+                class="w-full rounded-lg"
+                src="assets/movie-posters/trending/image 230.png"
+                alt="Trending 5"
+              />
+            </div>
+            <div class="poster-item">
+              <img
+                class="w-full rounded-lg"
+                src="assets/movie-posters/trending/image 236.png"
+                alt="Trending 5"
+              />
+            </div>
+          </div>
+          <button class="carousel-btn right">
+            <img
+              src="assets/Frame 71.png"
+              alt="Panah Kanan"
+              class="w-full h-full object-contain"
+            />
+          </button>
+        </div>
+
+        <h3 class="text-2xl font-bold">Rilis Baru</h3>
+        <div class="carousel-container">
+          <button class="carousel-btn left">
+            <img
+              src="assets/Frame 72.png"
+              alt="Panah Kiri"
+              class="w-full h-full object-contain"
+            />
+          </button>
+          <div class="flex overflow-hidden gap-4 py-2 scroll-smooth">
+            <div class="poster-item">
+              <img
+                class="w-full rounded-lg"
+                src="assets/movie-posters/new-release/image 205.png"
+                alt="New Release 1"
+              />
+            </div>
+            <div class="poster-item">
+              <img
+                class="w-full rounded-lg"
+                src="assets/movie-posters/new-release/image 216.png"
+                alt="New Release 2"
+              />
+            </div>
+            <div class="poster-item">
+              <img
+                class="w-full rounded-lg"
+                src="assets/movie-posters/new-release/image 232.png"
+                alt="New Release 3"
+              />
+            </div>
+            <div class="poster-item">
+              <img
+                class="w-full rounded-lg"
+                src="assets/movie-posters/new-release/image 225.png"
+                alt="New Release 4"
+              />
+            </div>
+            <div class="poster-item relative">
+              <div class="absolute top-2 left-2 bg-[#0F1E93] text-white text-xs font-semibold px-2 py-1 rounded-md z-10">
+                Episode Baru
+              </div>
+              <img
+                class="w-full rounded-lg"
+                src="assets/movie-posters/new-release/image 227.png"
+                alt="New Release 5"
+              />
+            </div>
+            <div class="poster-item">
+              <img
+                class="w-full rounded-lg"
+                src="assets/movie-posters/new-release/image 228.png"
+                alt="New Release 5"
+              />
+            </div>
+          </div>
+          <button class="carousel-btn right">
+            <img
+              src="assets/Frame 71.png"
+              alt="Panah Kanan"
+              class="w-full h-full object-contain"
+            />
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="py-12">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="flex flex-col lg:flex-row gap-12">
+          <div class="flex-shrink-0 lg:flex lg:flex-col lg:justify-center">
+            <div>
+              <div class="flex items-center mb-4">
+                <img src="assets/Logo.png" alt="Chill Logo" class="h-12" />
+              </div>
+              <p class="text-gray-400 text-sm">
+                ©2025 Chill All Rights Reserved.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex-1 grid grid-cols-1 md:grid-cols-5 gap-8 lg:gap-12">
+            <div>
+              <h3 class="text-lg font-semibold mb-6">Genre</h3>
+              <ul class="space-y-3 text-gray-300">
+                <li>
+                  <a href="#" class="hover:text-white transition-colors">
+                    Aksi
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="hover:text-white transition-colors">
+                    Anak-anak
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="hover:text-white transition-colors">
+                    Anime
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="hover:text-white transition-colors">
+                    Britania
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <div class="h-6 mb-6"></div>
+              <ul class="space-y-3 text-gray-300">
+                <li>
+                  <a href="#" class="hover:text-white transition-colors">
+                    Drama
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="hover:text-white transition-colors">
+                    Fantasi Ilmiah & Fantasi
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="hover:text-white transition-colors">
+                    Kejahatan
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="hover:text-white transition-colors">
+                    KDrama
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <div class="h-6 mb-6"></div>
+              <ul class="space-y-3 text-gray-300">
+                <li>
+                  <a href="#" class="hover:text-white transition-colors">
+                    Komedi
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="hover:text-white transition-colors">
+                    Petualangan
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="hover:text-white transition-colors">
+                    Perang
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="hover:text-white transition-colors">
+                    Romantis
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <div class="h-6 mb-6"></div>
+              <ul class="space-y-3 text-gray-300">
+                <li>
+                  <a href="#" class="hover:text-white transition-colors">
+                    Sains & Alam
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="hover:text-white transition-colors">
+                    Thriller
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-semibold mb-6">Bantuan</h3>
+              <ul class="space-y-3 text-gray-300">
+                <li>
+                  <a href="#" class="hover:text-white transition-colors">FAQ</a>
+                </li>
+                <li>
+                  <a href="#" class="hover:text-white transition-colors">Kontak Kami</a>
+                </li>
+                <li>
+                  <a href="#" class="hover:text-white transition-colors">Privasi</a >
+                </li>
+                <li>
+                  <a href="#" class="hover:text-white transition-colors">Syarat & Ketentuan</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

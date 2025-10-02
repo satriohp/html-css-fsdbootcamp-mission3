@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chill</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+    body {
+      font-family: "Lato", sans-serif;
+    }
+  </style>
+  <body class="bg-[url('assets/view-3d-cinema-theatre-room.jpg')] bg-cover bg-center bg-no-repeat min-h-screen flex justify-center items-center">
+    <div class="absolute inset-0 bg-black opacity-70"></div>
+
+    <div class="relative z-10 bg-[#1C1C1C] text-white p-8 rounded-xl shadow-lg w-full max-w-sm mx-auto">
+      <div class="flex items-center justify-center">
+        <img src="assets/Logo.png" alt="Chill Logo" class="h-22" />
+      </div>
+
+      <h2 class="text-3xl font-bold mb-2 text-center">Masuk</h2>
+
+      <p class="text-center text-sm mb-4 opacity-60">Selamat datang kembali!</p>
+
+      <div class="space-y-4">
+        <div>
+          <label for="username" class="block text-white opacity-60">Username</label>
+          <input
+            type="text"
+            id="username"
+            placeholder="Masukkan username"
+            class="w-full bg-[#333333] border-none text-white p-3 rounded-lg mt-1 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
+        </div>
+        <div>
+          <label for="password" class="block text-white opacity-60">Kata Sandi</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Masukkan kata sandi"
+            class="w-full bg-[#333333] border-none text-white p-3 rounded-lg mt-1 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
+        </div>
+      </div>
+
+      <div class="flex justify-between items-center text-sm mt-2 mb-4 text-white">
+        <p>
+          <span class="opacity-60">Belum punya akun?</span>
+          <a href="register.html" class="font-semibold hover:underline">Daftar</a>
+        </p>
+        <a href="#" class="font-semibold hover:underline">Lupa kata sandi?</a>
+      </div>
+
+      <div class="mt-6">
+        <button class="w-full bg-[#444444] p-3 rounded-lg text-white font-semibold hover:bg-[#555555]">
+            Masuk
+        </button>
+      </div>
+
+      <div class="mt-4 text-center text-sm opacity-60 relative before:content-[''] before:absolute before:left-0 before:top-1/2 before:w-[calc(50%-1.5rem)] before:h-[1px] before:bg-white before:opacity-30 after:content-[''] after:absolute after:right-0 after:top-1/2 after:w-[calc(50%-1.5rem)] after:h-[1px] after:bg-white after:opacity-30">
+        <span class="bg-[#1C1C1C] px-2 relative z-20">Atau</span>
+      </div>
+
+      <button class="w-full mt-4 bg-[#333333] p-3 rounded-lg text-white flex items-center justify-center hover:bg-[#444444]">
+        <img
+          src="assets/google-logo-icon-gsuite-hd-701751694791470gzbayltphh.png"
+          alt="Google logo"
+          class="w-5 h-5 mr-2"
+        />
+        Masuk dengan Google
+      </button>
+    </div>
+  </body>
+</html>
